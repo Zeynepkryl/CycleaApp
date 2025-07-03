@@ -1,4 +1,11 @@
 package com.example.cycleaapp.core
 
-class AppDispatcher {
+import kotlinx.coroutines.Dispatchers
+
+object AppDispatcher {
+
+    val main = Dispatchers.Main
+    val io = Dispatchers.IO
+    val worker = Dispatchers.Default
+
 }
