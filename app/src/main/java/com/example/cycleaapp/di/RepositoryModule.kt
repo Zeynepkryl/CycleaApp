@@ -1,7 +1,7 @@
 package com.example.cycleaapp.di
 
-import com.example.cycleaapp.dal.datamodel.UserRepository
-import com.example.cycleaapp.dal.repositories.UserRepositoryImpl
+import com.example.cycleaapp.data.repository.UserRepositoryImpl
+import com.example.cycleaapp.domain.repository.UserRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

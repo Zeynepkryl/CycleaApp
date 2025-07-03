@@ -2,8 +2,8 @@ package com.example.cycleaapp
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.cycleaapp.dal.datamodel.UserRepository
-import com.example.cycleaapp.model.User
+import com.example.cycleaapp.domain.model.User
+import com.example.cycleaapp.domain.repository.UserRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

@@ -1,6 +1,6 @@
 package com.example.cycleaapp.di
 
-import com.example.cycleaapp.dal.network.service.ApiService
+import com.example.cycleaapp.data.remote.service.ApiService
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import dagger.Module

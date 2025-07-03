@@ -1,10 +1,10 @@
-package com.example.cycleaapp.dal.repositories
+package com.example.cycleaapp.data.repository
 
-import com.example.cycleaapp.dal.datamodel.UserRepository
-import com.example.cycleaapp.dal.network.service.ApiService
+import com.example.cycleaapp.data.remote.service.ApiService
 import com.example.cycleaapp.db.dao.UserDao
 import com.example.cycleaapp.db.dao.UserEntity
-import com.example.cycleaapp.model.User
+import com.example.cycleaapp.domain.model.User
+import com.example.cycleaapp.domain.repository.UserRepository
 import javax.inject.Inject
 
 class UserRepositoryImpl @Inject constructor(
